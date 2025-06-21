@@ -1,0 +1,68 @@
+.customSelectContainer {
+  width: 100%;
+  min-width: 124px;
+  border-radius: 14px;
+  position: relative;
+  background-color: var(--bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.selectedDisplay {
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.11;
+  color: var(--text-color);
+}
+
+.arrowIcon {
+  display: flex;
+  align-items: center;
+  transition: transform var(--transition);
+}
+
+.arrowIcon svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2px;
+  stroke: var(--text-color);
+}
+
+.arrowIcon.arrowUp {
+  transform: rotate(180deg);
+}
+
+.optionsList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-btn);
+  border-top: none;
+  border-radius: 12px;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.optionItem {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.11;
+  color: var(--color-selected);
+}
+
+.optionItem.selected {
+  color: var(--text-color);
+}

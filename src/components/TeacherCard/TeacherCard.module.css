@@ -1,0 +1,249 @@
+.card {
+  display: flex;
+  gap: 48px;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin-bottom: 32px;
+  max-width: 1184px;
+}
+
+.card:last-of-type {
+  margin-bottom: 0;
+}
+
+.avatarWrapper {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  border: 3px solid var(--border-img);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.onlineIndicator {
+  position: absolute;
+  top: 15px;
+  right: 21px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent-color);
+  border-radius: 100%;
+  border: 1px solid var(--bg-color);
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.languageText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+
+  margin-right: 194px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  width: 607px;
+
+  margin-right: 64px;
+}
+
+.stats p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.divider {
+  color: var(--color-selected);
+  margin: 0 17px;
+  user-select: none;
+  width: 1px;
+}
+
+.price {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.favoriteButton {
+  background: transparent;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.languages,
+.lessonInfo {
+  margin-bottom: 8px;
+}
+
+.detailLabel {
+  color: var(--secondary-color);
+}
+
+.languageList {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--text-color);
+}
+
+.readMoreButton {
+  background: transparent;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  margin-bottom: 32px;
+}
+
+.fullInfo {
+  margin-top: 16px;
+}
+
+.experience {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.reviewItem {
+  margin-bottom: 32px;
+}
+
+.reviewerMeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.reviewerAvatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.reviewerName {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.reviewRating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--text-color);
+}
+
+.reviewComment {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.levelList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.levelItem {
+  border: 1px solid var(--border-btn);
+  border-radius: 35px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--text-color);
+  height: 32px;
+  cursor: pointer;
+  transition: border-color var(--transition);
+}
+
+.levelItem:hover {
+  border-color: var(--color-text-auth);
+}
+
+.levelItemActive {
+  background-color: var(--bg-btn-active);
+  color: var(--text-color);
+  transition: background-color var(--transition);
+}
+
+.levelItemActive:hover {
+  background-color: var(--bg-btn-hover);
+}
+
+.bookButton {
+  background-color: var(--bg-btn-color);
+  color: var(--text-color);
+  padding: 16px 48px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  transition: background-color var(--transition);
+  margin-top: 32px;
+}
+
+.bookButton:hover {
+  background-color: var(--bg-btn-hover);
+}

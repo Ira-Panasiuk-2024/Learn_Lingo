@@ -1,0 +1,91 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 64px;
+  padding-right: 64px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-color);
+}
+
+.wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1184px;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.learnLingoLogo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.logoText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text-color);
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  transition: color var(--transition);
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: var(--bg-btn-hover);
+}
+
+.authActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--bg-color-theme);
+}
+
+.authButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  color: var(--text-color);
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.authIcon {
+  color: var(--svg);
+}
+
+.registerButton {
+  background-color: #121212;
+  color: #f8f8f8;
+  border-radius: 12px;
+  padding: 14px 39px;
+  font-weight: 700;
+  transition: background-color var(--transition);
+  border: none;
+}

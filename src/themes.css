@@ -1,0 +1,79 @@
+body.default-theme {
+  --bg-color-theme: #f4c550;
+  --bg-accent-color: #fbe9ba;
+  --bg-btn-color: #f4c550;
+  --bg-btn-hover: #fbe9ba;
+  --border-color-home: #f4c550;
+  --border-img: #fbe9ba;
+  --bg-btn-active: #f4c550;
+  --color-radio-active: #f4c550;
+  --border-radio: #f4c550;
+  --svg: #f4c550;
+  --heart-active: #f4c550;
+  --link-color: var(--text-color);
+  --link-hover-color: #f4c550;
+}
+
+body.green-theme {
+  --bg-color-theme: #9fbaae;
+  --bg-accent-color: #cbded3;
+  --bg-btn-color: #9fbaae;
+  --bg-btn-hover: #cbded3;
+  --border-color-home: #9fbaae;
+  --border-img: #cbded3;
+  --bg-btn-active: #9fbaae;
+  --color-radio-active: #9fbaae;
+  --border-radio: #9fbaae;
+  --svg: #9fbaae;
+  --heart-active: #9fbaae;
+  --link-color: var(--text-color);
+  --link-hover-color: #9fbaae;
+}
+
+body.blue-theme {
+  --bg-color-theme: #9fb7ce;
+  --bg-accent-color: #bfd6ea;
+  --bg-btn-color: #9fb7ce;
+  --bg-btn-hover: #bfd6ea;
+  --border-color-home: #9fb7ce;
+  --border-img: #bfd6ea;
+  --bg-btn-active: #9fb7ce;
+  --color-radio-active: #9fb7ce;
+  --border-radio: #9fb7ce;
+  --svg: #9fb7ce;
+  --heart-active: #9fb7ce;
+  --link-color: var(--text-color);
+  --link-hover-color: #9fb7ce;
+}
+
+body.pinkLight-theme {
+  --bg-color-theme: #f0aa8d;
+  --bg-accent-color: #f4c8ba;
+  --bg-btn-color: #f0aa8d;
+  --bg-btn-hover: #f4c8ba;
+  --border-color-home: #f0aa8d;
+  --border-img: #f4c8ba;
+  --bg-btn-active: #f0aa8d;
+  --color-radio-active: #f0aa8d;
+  --border-radio: #f0aa8d;
+  --svg: #f0aa8d;
+  --heart-active: #f0aa8d;
+  --link-color: var(--text-color);
+  --link-hover-color: #f0aa8d;
+}
+
+body.pinkDark-theme {
+  --bg-color-theme: #e0a39a;
+  --bg-accent-color: #f2c0bd;
+  --bg-btn-color: #e0a39a;
+  --bg-btn-hover: #f2c0bd;
+  --border-color-home: #e0a39a;
+  --border-img: #f2c0bd;
+  --bg-btn-active: #e0a39a;
+  --color-radio-active: #e0a39a;
+  --border-radio: #e0a39a;
+  --svg: #e0a39a;
+  --heart-active: #e0a39a;
+  --link-color: var(--text-color);
+  --link-hover-color: #e0a39a;
+}

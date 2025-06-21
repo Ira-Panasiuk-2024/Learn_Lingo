@@ -1,0 +1,53 @@
+.favoritesSection {
+  padding: 96px 64px 96px 64px;
+  background-color: var(--bg-color-secondary);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.favoritesList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emptyFavorites {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.loadMoreButton {
+  background-color: var(--bg-btn-color);
+  color: var(--text-color);
+  padding: 16px 48px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+  transition: background-color var(--transition);
+  margin-top: 64px;
+}
+
+.loadMoreButton:hover:not(:disabled) {
+  background-color: var(--bg-btn-hover);
+}
+
+.loadMoreButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

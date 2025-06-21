@@ -1,0 +1,136 @@
+.homeSection {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.content {
+  flex: 1;
+  max-width: 720px;
+  height: 530px;
+  background-color: var(--bg-color-secondary);
+  padding: 98px 108px 98px 64px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  margin-bottom: 26px;
+  color: var(--text-color);
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 400;
+  background-color: var(--bg-accent-color);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: -0.02em;
+  color: var(--text-color);
+  margin-bottom: 64px;
+}
+
+.getStartedButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-theme);
+  color: var(--text-color);
+  padding: 16px 88px;
+  width: 267px;
+  height: 60px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.56;
+
+  transition: background-color var(--transition);
+}
+
+.getStartedButton:hover {
+  background-color: var(--bg-btn-hover);
+}
+
+.imageContainer {
+  flex: 1;
+  max-width: 568px;
+}
+
+.homeImage {
+  border-radius: 30px;
+}
+
+.statistics {
+  border: 1.5px dashed var(--border-color-home);
+  border-radius: 30px;
+  padding: 40px 122px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 100px;
+  white-space: nowrap;
+
+  transition: border var(--transition);
+}
+
+.statistics:hover {
+  border: 1.5px dashed var(--border-img);
+}
+
+.statItemExperienced {
+  display: flex;
+  height: 36px;
+  width: 217px;
+}
+
+.statItemReviews {
+  display: flex;
+  height: 36px;
+  width: 232px;
+}
+
+.statItemSubjects {
+  display: flex;
+  height: 36px;
+  width: 159px;
+}
+
+.statItemNationalities {
+  display: flex;
+  height: 36px;
+  width: 159px;
+}
+
+.statNumber {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--text-color);
+  margin: 0 16px 4px 0;
+}
+
+.statLabel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--color-text-home);
+  margin: 0;
+  white-space: wrap;
+  text-align: left;
+}

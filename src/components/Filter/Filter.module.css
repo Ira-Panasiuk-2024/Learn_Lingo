@@ -1,0 +1,71 @@
+.filterContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 32px;
+
+  width: 100%;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filterLabel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--secondary-color);
+}
+
+.languageSelect {
+  width: 223px;
+  border: 1px solid transparent;
+  transition: border var(--transition);
+}
+
+.languageSelect:hover {
+  border: 1px solid var(--border-btn);
+}
+
+.levelSelect {
+  width: 200px;
+  border: 1px solid transparent;
+  transition: border var(--transition);
+}
+
+.levelSelect:hover {
+  border: 1px solid var(--border-btn);
+}
+
+.priceSelect {
+  width: 126px;
+  border: 1px solid transparent;
+  transition: border var(--transition);
+}
+
+.priceSelect:hover {
+  border: 1px solid var(--border-btn);
+}
+
+.resetButton {
+  padding: 16px 18px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.11;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: border var(--transition);
+  margin-top: 27px;
+}
+
+.resetButton:hover {
+  border: 1px solid var(--border-btn);
+}
