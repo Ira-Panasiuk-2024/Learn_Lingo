@@ -280,11 +280,11 @@ Learn Lingo — це сучасний веб-застосунок для ком�
 
 ## 🌐 Демо
 
-**Живий застосунок:** -
+**Живий застосунок:**
 <a href="https://learn-lingo-eight-phi.vercel.app" target="_blank" rel="noopener noreferrer">Переглянути
 демо</a>
 
-**GitHub репозиторій:** -
+**GitHub репозиторій:**
 <a href="https://github.com/Ira-Panasiuk-2024/Learn_Lingo" target="_blank" rel="noopener noreferrer">Переглянути
 вихідний код</a>
 
@@ -349,8 +349,8 @@ This project is created for educational purposes. / Цей проєкт ство
 
 ## 👨‍💻 Author / Автор
 
-**Ira Panasiuk:** -
+**Ira Panasiuk:**
 <a href="https://github.com/Ira-Panasiuk-2024" target="_blank" rel="noopener noreferrer">GitHub
-Profile</a> / **Ірина Панасюк:** -
+Profile</a> / **Ірина Панасюк:**
 <a href="https://github.com/Ira-Panasiuk-2024" target="_blank" rel="noopener noreferrer">GitHub
 профіль</a>
